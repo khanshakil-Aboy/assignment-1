@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.primary-color{
+    color: #4E47FF;
+}
+
+/* nav section */
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 40px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 35px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.button{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* banner section */
+.banner{
+    text-align: center;
+    width: 900px;
+    margin: 100px auto;
+}
+/* raleway font here */
+.banner-title{
+    font-size: 65px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+
+}
+.banner-button{
+    margin-top: 30px;
+}
+
+/* header image */
+.head{
+    max-width: 100%;
+    height: 600px;
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* action-section */
+.action-section{
+    display: flex;
+    width: 940px;
+    height: 300px;
+    margin: 120px auto;
+    gap: 50px;
+    align-items: center;
+    padding: 40px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #252432;
+}
+
+.action-sub{
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.473);
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 15px 0 15px 0;
+}
+
+.action img{
+    border-radius: 40px;
+}
+
+/* user section */
+.user-section{
+    text-align: center;
+    background-color: rgba(77, 71, 255, 0.171);
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.user-title{
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #252432;
+
+}
+
+.user-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item h3{
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #4E47FF;
+}
+
+.item h5{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: hsla(244, 16%, 17%, 0.37);
+
+}
