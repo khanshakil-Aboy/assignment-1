@@ -20,7 +20,7 @@ body{
 
 .logo{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 55px;
     color: #4E47FF;
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -194,3 +194,10 @@ body{
 }
 
 /* button hover*/
+
+button:hover{
+    background-color: yellow;
+    color: #000000;
+    cursor: pointer;
+
+}
