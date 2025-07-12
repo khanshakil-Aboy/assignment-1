@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #1e1e1e1f;
+}
 .primary-color{
     color: #4E47FF;
 }
@@ -143,4 +146,48 @@
     "wdth" 100;
     color: hsla(244, 16%, 17%, 0.37);
 
+}
+
+/* touch-section */
+.touch-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.tuch-collum{
+    width: 50%;
+}
+
+.tuch-title{
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+
+.tuch-collum input[type="email"], [type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.tuch-button{
+    width: 100%;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    display: inline;
 }
