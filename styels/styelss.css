@@ -238,3 +238,34 @@ justify-content: space-around;
     color: #8987A1;
 
 }
+
+/* focus-section */
+
+.focus-section{
+    max-width: 900px;
+    max-height: 700px;
+    background-color: #FFFFFF;
+    padding: 40px 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.focus-heading{
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+
+}
+
+.focus-info{
+    color: #8987A1;
+    margin: 20px 0px 20px 0px;
+}
+.focus-section img{
+    max-width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
